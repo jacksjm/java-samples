@@ -18,7 +18,7 @@ Matheus Antomar | Mateus-Balsanelli
 Matheus Rech | MatheusRech99
 Charles | charles-tech
 Gustavo | Potulskigustavo
-Luiz Paulo | Luizpaulom.w
+Luiz Paulo | Luizpaulomw
 Renan | warreir
 Luis Renério | luisrenerio
 Rodrigo | garciafelizardo
