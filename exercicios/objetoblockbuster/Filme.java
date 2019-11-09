@@ -12,8 +12,8 @@ public class Filme {
     int estoque;
     List<Locacao> locacoes = new ArrayList<>();
 
-    Filme(String id, String nome, String anoLancamento, String sinopse, double valor, int estoque){
-        this.id = id;
+    Filme(String paramId, String nome, String anoLancamento, String sinopse, double valor, int estoque){
+        this.id = paramId;
         this.nome = nome;
         this.anoLancamento = anoLancamento;
         this.sinopse = sinopse;
