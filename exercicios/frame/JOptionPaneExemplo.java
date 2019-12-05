@@ -25,11 +25,13 @@ public class JOptionPaneExemplo extends JFrame {
         mensagem.setBounds(10,30,100,22);
         fechar.setBounds(10,60,100,22);
 
-        mensagem.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                buttonMensagemActionPerformed(e);
+        ActionListener listener = new ActionListener(){
+            public void actionPerformed(ActionEvent event){
+                buttonMensagemActionPerformed(event);
             }
-        });
+        };
+
+        mensagem.addActionListener(listener);
 
         fechar.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
